@@ -59,8 +59,8 @@ def process_satellite():
         print e
 
 # == Driver Code ==
-# Run every 10 seconds for 50 seconds 60 times - accommodate PythonAnywhere
-for y in range(60):
+# Run every 10 seconds forever - accommodate PythonAnywhere's tasks
+while True:
     for i in range(6):
         process_satellite()
         time.sleep(10)

@@ -1,0 +1,6 @@
+[
+  "tests/test_health.py::Test_Health::()::test_empty",
+  "tests/test_health.py::Test_Health::()::test_imminent",
+  "tests/test_health.py::Test_Health::()::test_sustained",
+  "tests/test_health.py::Test_Health::()::test_ok"
+]

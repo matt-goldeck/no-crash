@@ -1,6 +1,6 @@
 # test_health.py
 # Barebones and kludgy unit tests for the /health endpoint
-from ..secrets import test_nocrash
+from app.secrets import test_nocrash
 import MySQLdb, requests, datetime
 base_url = "http://127.0.0.1:5000"
 
